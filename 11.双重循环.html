@@ -9,7 +9,7 @@
     <!--可以用括号的形式 第一个参数是当前索引 第二个是数组的每一项   index = $index-->
     <div v-for="(index,book) in books">
         {{book.name}} {{index}}
-        <!--book代表数组的每一项-->
+        <!--book代表数组的每一项--> 确定是 book代表的每一项吗？？？ 搁哪儿抄的这是  抄错了还 哈哈哈
         <div v-for="b in book.name">
             父亲{{index}}{{$index}}
         </div>
